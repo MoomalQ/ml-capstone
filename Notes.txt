@@ -1,0 +1,8 @@
+Factorial hidden markov model
+Combinatorial optimization
+
+Energy Disaggregation for Real-Time Building Flexibility Detection
+https://arxiv.org/pdf/1605.01939.pdf
+
+NILMTK: An Open Source Toolkit for Non-intrusive Load Monitoring
+https://nilmworkshop14.files.wordpress.com/2014/05/batra_nilmtk.pdf
