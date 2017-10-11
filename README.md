@@ -1,4 +1,10 @@
-# ml-capstone
-Machine Learning for the Efficiency and Security of Buildings and Energy Systems
+# Energy Disaggregation with Machine Learning
+Using the Reference Energy Disaggregation Data Set.
+
+## Current approach
+* Simplified problem: multi-label classification treating each appliance as on or off.
+* Analysis of current approaches: Combinatorial optimizaiton, factorial hidden Markov models and Maximimum Likelihood Estimates.
+* Novel approaches: Using neural networks (autoencoders most likely, possibly RNNs)
+
 ## Authors
 * **Nicholas Hirons**
