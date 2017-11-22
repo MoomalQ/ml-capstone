@@ -40,7 +40,7 @@ def get_labels():
 
     labels_dict = {'house_' + str(i):[] for i in range(1,7)}
 
-    for house in paths_dict.keys():
+    for house in labels_dict.keys():
 
         df_temp = pd.read_csv('./REDD/low_freq/'+ house +'/labels.dat', names = ['Labels'])
         labels_dict[house] = df_temp['Labels'].tolist()
@@ -53,6 +53,11 @@ def get_labels():
     return labels_dict
 
 def create_dataframes(paths_dict, labels_dict):
+
+    '''
+    Creates dictionary of house dataframes containing every appliance
+    '''
+
 
     house_dict = {'house_' + str(i):{} for i in range(1,7)}
 
